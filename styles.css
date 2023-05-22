@@ -1,0 +1,93 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    line-height: 1.6;
+}
+
+h1 {
+    display: inline;
+    margin-right: 10px;
+}
+
+h3 {
+    color: rgb(8, 182, 182);
+    text-align: left;
+}
+
+.head-col3 {
+    color: white;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+.thirty-day {
+    color: rgb(204, 204, 6);
+}
+
+body {
+    background-color: rgb(236, 248, 248);
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    color: grey;
+    list-style-type: none;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: auto auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid-col1 {
+    background-color: white;
+    color: grey;
+    padding: 50px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid-col2 {
+    background-color: rgb(8, 182, 182);
+    color: rgba(255, 255, 255, 0.726);
+    padding: 50px;
+    padding-top: 30px;
+}
+
+.grid-col3 {
+    background-color: rgba(4, 209, 209, 0.836);
+    color: rgba(255, 255, 255, 0.726);
+    padding: 50px;
+    padding-top: 30px;
+}
+
+.li-col3 li {
+    color: rgba(255, 255, 255, 0.726);
+}
+
+button {
+    display: block;
+    margin-top: 25px;
+    width: 100%;
+    height: 25%;
+    background-color: yellow;
+    color: white;
+    font-size: 16px;
+    border: transparent;
+    border-radius: 4px;
+}
+
+.attribution {
+    color: black;
+}
